@@ -1,0 +1,25 @@
+id apakah bisa diubah sesuai kemauan kita atau id yang autoincrement
+kenapa transaksi dan detail transaksi jadi satu sedangkan dimySQl mereka beda diagram meski dalam satu postman atau controller
+tidak bisa memanggil data seperti nama barang
+docker itu untuk apa
+
+1.mengambil id barang tanpa looping 
+2.yang dikirim di postman(hanya id barang an quantity) jadi tanpa input harga ataupun nama barang
+3.misal dilooping ada 2 transaksi dibagian pengurangan quantity dibagian array pertama berhasil tetapi dibagian kedua gagal,bagaimana caranya quantity sebelumnya tidak berkurang
+4.make throw(belajar throw buat try catch)
+5.pake auth dengan role dan setiap role punya pramssion sendiri untuk akses 
+  - admin : hanya boleh menambah user, hapus user, update user, lihat semua user, update barang , create barang, hapus barang, lihat semua barang
+  - kasir : hanya boleh membuat transaksi, hapus transaksi, lihat semua transaksi, lihat transaksi berdasarkan id
+  - autorez di role ngecek berdasarkan action bukan berdasarkan rolenya dan yang dicek pramssion bukan role
+  - rolenya punya relasi 
+  - jadi itu ada dua tabel role, premession
+  - 
+6.make finally biar ngga nulis dua kali
+7. menggunakan kodingan yang simpel
+8. tambahkan total bayar
+
+
+mongodb+srv://saharanipusfita31rpl:200626rv@tokodor2.mtmj4.mongodb.net/?retryWrites=true&w=majority&appName=tokodor2
+
+mongodb+srv://saharanipusfita31rpl:200626rv@tokodor2.mtmj4.mongodb.net/
+//mongodb+srv://saharanipusfitacans:saharanipusfitacans@blogpost2.rii1s.mongodb.net/blogbaru?retryWrites=true&w=majority&appName=Blogpost2
